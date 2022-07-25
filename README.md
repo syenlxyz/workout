@@ -1,1 +1,1 @@
-# push-pull-legs
+# Push/Pull/Legs Workout Plan
