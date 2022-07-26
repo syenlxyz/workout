@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Hello World!</title>
+  <title>Weekly Workout Plan</title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="p-4 bg-primary text-white text-center">
-    <h1>Push/Pull/Legs Workout Plan</h1>
+    <h1>Weekly Workout Plan</h1>
   </div>
 
   <div class="bg-light">
@@ -238,7 +238,8 @@
           var img = document.createElement('img')
           img.src = item.image
           img.alt = item.image.split('/').pop()
-          img.style = 'width:330px;height:220px;'
+          img.class = 'img-fluid'
+          img.style = 'max-width:100%;height:auto;'
           cell3.appendChild(img)
           var cell4 = row.insertCell()
           cell4.innerHTML = item.part
