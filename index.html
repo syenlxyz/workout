@@ -17,28 +17,28 @@
   <div class="bg-light">
     <ul class="nav nav-tabs nav-justified">
       <li class="nav-item">
-        <a class="nav-link active" data-bs-toggle="tab" href="#day1">Day 1</a>
+        <a id="day1-link" class="nav-link" data-bs-toggle="tab" href="#day1">Day 1</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="tab" href="#day2">Day 2</a>
+        <a id="day2-link" class="nav-link" data-bs-toggle="tab" href="#day2">Day 2</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="tab" href="#day3">Day 3</a>
+        <a id="day3-link" class="nav-link" data-bs-toggle="tab" href="#day3">Day 3</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="tab" href="#day4">Day 4</a>
+        <a id="day4-link" class="nav-link" data-bs-toggle="tab" href="#day4">Day 4</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="tab" href="#day5">Day 5</a>
+        <a id="day5-link" class="nav-link" data-bs-toggle="tab" href="#day5">Day 5</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="tab" href="#day6">Day 6</a>
+        <a id="day6-link" class="nav-link" data-bs-toggle="tab" href="#day6">Day 6</a>
       </li>
     </ul>
   </div>
 
   <div class="tab-content">
-    <div class="tab-pane container-fluid mt-4 active" id="day1">
+    <div id="day1" class="tab-pane container-fluid mt-4">
       <h2>Day 1: Chest, Shoulder, Triceps (Part 1)</h2>
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
@@ -52,7 +52,7 @@
         <tbody></tbody>
       </table>
     </div>
-    <div class="tab-pane container-fluid mt-4" id="day2">
+    <div id="day2" class="tab-pane container-fluid mt-4">
       <h2>Day 2: Back, Biceps, Forearms (Part 1)</h2>
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
@@ -66,7 +66,7 @@
         <tbody></tbody>
       </table>
     </div>
-    <div class="tab-pane container-fluid mt-4" id="day3">
+    <div id="day3" class="tab-pane container-fluid mt-4">
       <h2>Day 3: Legs and Core (Part 1)</h2>
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
@@ -80,7 +80,7 @@
         <tbody></tbody>
       </table>
     </div>
-    <div class="tab-pane container-fluid mt-4" id="day4">
+    <div id="day4" class="tab-pane container-fluid mt-4">
       <h2>Day 4: Chest, Shoulder, Triceps (Part 2)</h2>
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
@@ -94,7 +94,7 @@
         <tbody></tbody>
       </table>
     </div>
-    <div class="tab-pane container-fluid mt-4" id="day5">
+    <div id="day5" class="tab-pane container-fluid mt-4">
       <h2>Day 5: Back, Biceps, Forearms (Part 2)</h2>
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
@@ -108,7 +108,7 @@
         <tbody></tbody>
       </table>
     </div>
-    <div class="tab-pane container-fluid mt-4" id="day6">
+    <div id="day6" class="tab-pane container-fluid mt-4">
       <h2>Day 6: Legs and Core (Part 2)</h2>
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
@@ -132,49 +132,57 @@
           part: 'Chest',
           youtube: 'https://www.youtube.com/watch?v=rT7DgCr-3pg', 
           image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-bench-press.jpg'
-        }, {
+        }, 
+        {
           no: 2,
           exercise: 'Barbell Overhead Press',
           part: 'Shoulder',
           youtube: 'https://www.youtube.com/watch?v=2yjwXTZQDDI', 
           image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/barbell-overhead-press.jpg'
-        }, {
+        }, 
+        {
           no: 3,
           exercise: 'Triceps Rope Pushdown',
           part: 'Triceps',
           youtube: 'https://www.youtube.com/watch?v=vB5OHsJ3EME', 
           image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/triceps-rope-push-down.jpg'
-        }, {
+        }, 
+        {
           no: 4,
           exercise: 'Incline Dumbbell Press',
           part: 'Chest',
           youtube: 'https://www.youtube.com/watch?v=8iPEnn-ltC8', 
           image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/incline-dumbbell-bench-press.jpg'
-        }, {
+        }, 
+        {
           no: 5,
           exercise: 'Dumbbell Front Lateral Raise',
           part: 'Shoulder',
           youtube: 'https://www.youtube.com/watch?v=3VcKaXpzqRo', 
           image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-lateral-raise.jpg'
-        }, {
+        }, 
+        {
           no: 6,
           exercise: 'Incline Dumbbell Overhead Extension',
           part: 'Triceps',
           youtube: 'https://www.youtube.com/watch?v=YbX7Wd8jQ-Q', 
           image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/incline-dumbbell-triceps-extension.jpg'
-        }, {
+        }, 
+        {
           no: 7,
           exercise: 'Dumbbell Pullover',
           part: 'Chest',
           youtube: 'https://www.youtube.com/watch?v=tpLnfSQJ0gg', 
           image: 'https://fitnessvolt.com/wp-content/uploads/2020/02/dumbbell-pullover.jpg'
-        }, {
+        }, 
+        {
           no: 8,
           exercise: 'Bent Over Lateral Raise',
           part: 'Shoulder',
           youtube: 'https://www.youtube.com/watch?v=ttvfGg9d76c', 
           image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-bent-over-lateral-raise.jpg'
-        }, {
+        }, 
+        {
           no: 9,
           exercise: '	Triangle Push Up',
           part: 'Triceps',
@@ -183,13 +191,103 @@
         }
       ],
       day2: [
+        {
+          no: 1,
+          exercise: 'Pull Up',
+          part: 'Back',
+          youtube: '', 
+          image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/pull-up.jpg'
+        }, 
+        {
+          no: 2,
+          exercise: 'Chin Up',
+          part: 'Biceps',
+          youtube: '', 
+          image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/close-neutral-grip-pull-up.jpg'
+        }, 
+        {
+          no: 3,
+          exercise: 'Barbell Bent Over Row',
+          part: 'Back',
+          youtube: '', 
+          image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/bent-over-barbell-row.jpg'
+        }, 
+        {
+          no: 4,
+          exercise: 'EZ Bar Standing Biceps Curl',
+          part: 'Biceps',
+          youtube: '', 
+          image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/ez-bar-curl.jpg'
+        }, 
+        {
+          no: 5,
+          exercise: 'Wide Grip Lat Pulldown',
+          part: 'Back',
+          youtube: '', 
+          image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/wide-grip-lat-pull-down-1.jpg'
+        }, 
+        {
+          no: 6,
+          exercise: 'Preacher Curl',
+          part: 'Biceps',
+          youtube: '', 
+          image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-preacher-curl.jpg'
+        }, 
+        {
+          no: 7,
+          exercise: 'One Arm Dumbbell Rowing',
+          part: 'Back',
+          youtube: '', 
+          image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/bent-over-dumbbell-row-2.jpg'
+        }, {
+          no: 8,
+          exercise: 'Dumbbell Alternate Biceps Curl',
+          part: 'Biceps',
+          youtube: '', 
+          image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-curl.jpg'
+        }, {
+          no: 9,
+          exercise: 'Palm Up Dumbbell Wrist Curl',
+          part: 'Wrist and Forearm',
+          youtube: '', 
+          image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/seated-dumbbell-wrist-curl.jpg'
+        }, 
         
       ],
-      day3: [],
-      day4: [],
-      day5: [],
-      day6: []
-    }
+      day3: [
+      {
+          no: 1,
+          exercise: 'Coming Soon',
+          part: '',
+          youtube: '', 
+          image: ''
+        }
+      ],
+      day4: [
+        {
+          no: 1,
+          exercise: 'Coming Soon',
+          part: '',
+          youtube: '', 
+          image: ''
+        }],
+      day5: [
+        {
+          no: 1,
+          exercise: 'Coming Soon',
+          part: '',
+          youtube: '', 
+          image: ''
+        }],
+      day6: [
+        {
+          no: 1,
+          exercise: 'Coming Soon',
+          part: '',
+          youtube: '', 
+          image: ''
+        }]
+    };
   </script>
   <script>
     Array.from(document.getElementsByClassName('table')).forEach(function(table) {
@@ -216,6 +314,23 @@
         })
       }
     })
+  </script>
+  <script>
+    var dow = {
+      0: 'day1',
+      1: 'day1',
+      2: 'day2',
+      3: 'day3',
+      4: 'day4',
+      5: 'day5',
+      6: 'day6'
+    };
+    var today = new Date();
+    var id = dow[today.getDay()]
+    var tab = document.getElementById(id);
+    tab.classList.add('active')
+    var tabPane = document.getElementById(id + '-link')
+    tabPane.classList.add('active')
   </script>
 </body>
 </html>
