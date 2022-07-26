@@ -132,15 +132,18 @@
       if (data[id]) {
         Array.from(data[id]).forEach(function(item) {
           var row = table.lastElementChild.insertRow();
+
           var cell1 = row.insertCell();
           cell1.style = 'width:5vw;height:auto;';
           cell1.innerHTML = item.no;
+
           var cell2 = row.insertCell();
           var a = document.createElement('a');
           a.href = item.youtube;
           a.innerText = item.exercise;
           cell2.style = 'width:20vw;height:auto;';
           cell2.appendChild(a);
+
           var cell3 = row.insertCell();
           var img = document.createElement('img');
           img.src = item.image;
@@ -148,6 +151,7 @@
           img.class = 'img-fluid';
           img.style = 'width:50vw;height:auto;';
           cell3.appendChild(img);
+          
           var cell4 = row.insertCell();
           cell4.style = 'width:10vw;height:auto;';
           cell4.innerHTML = item.part;
@@ -167,8 +171,10 @@
     };
     var today = new Date();
     var id = dow[today.getDay()];
+
     var tab = document.getElementById(id);
     tab.classList.add('active');
+    
     var tabPane = document.getElementById(id + '-link');
     tabPane.classList.add('active');
   </script>
