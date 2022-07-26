@@ -77,7 +77,7 @@ var data = {
       exercise: 'Chin Up',
       part: 'Biceps',
       youtube: 'https://www.youtube.com/watch?v=40A3NGv31lE', 
-      image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/close-neutral-grip-pull-up.jpg'
+      image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/machine-assisted-close-neutral-grip-pull-up.jpg'
     }, 
     {
       no: 3,
@@ -88,47 +88,49 @@ var data = {
     }, 
     {
       no: 4,
-      exercise: 'EZ Bar Standing Biceps Curl',
+      exercise: 'Preacher Curl',
       part: 'Biceps',
-      youtube: 'https://www.youtube.com/watch?v=zG2xJ0Q5QtI', 
-      image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/ez-bar-curl.jpg'
+      youtube: 'https://www.youtube.com/watch?v=nbcgEmZ0Be4', 
+      image: 'https://fitnessvolt.com/wp-content/uploads/2020/08/barbell-preacher-curl.jpg'
     }, 
     {
       no: 5,
       exercise: 'Wide Grip Lat Pulldown',
       part: 'Back',
       youtube: 'https://www.youtube.com/watch?v=CAwf7n6Luuc', 
-      image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/wide-grip-lat-pull-down-1.jpg'
+      image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/wide-grip-lat-pull-down.jpg'
     }, 
     {
       no: 6,
-      exercise: 'Preacher Curl',
+      exercise: 'EZ Bar Standing Biceps Curl',
       part: 'Biceps',
-      youtube: 'https://www.youtube.com/watch?v=nbcgEmZ0Be4', 
-      image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-preacher-curl.jpg'
+      youtube: 'https://www.youtube.com/watch?v=zG2xJ0Q5QtI', 
+      image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/ez-bar-curl.jpg'
     }, 
     {
       no: 7,
       exercise: 'One Arm Dumbbell Rowing',
       part: 'Back',
-      youtube: 'https://www.youtube.com/watch?v=pYcpY20QaE8', 
-      image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/bent-over-dumbbell-row-2.jpg'
-    }, {
+      youtube: 'https://www.youtube.com/watch?v=KRN38chlkds', 
+      image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/bent-over-dumbbell-row.jpg'
+    }, 
+    {
       no: 8,
       exercise: 'Dumbbell Alternate Biceps Curl',
       part: 'Biceps',
       youtube: 'https://www.youtube.com/watch?v=sAq_ocpRh_I', 
       image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-curl.jpg'
-    }, {
+    }, 
+    {
       no: 9,
       exercise: 'Palm Up Dumbbell Wrist Curl',
       part: 'Wrist and Forearm',
       youtube: 'https://www.youtube.com/watch?v=qMtmHwaCmYI', 
-      image: 'https://fitnessvolt.com/wp-content/uploads/2018/04/seated-dumbbell-wrist-curl.jpg'
+      image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-one-arm-reverse-wrist-curl.jpg'
     } 
   ],
   day3: [
-  {
+    {
       no: 1,
       exercise: 'Coming Soon',
       part: '',
