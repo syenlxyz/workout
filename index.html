@@ -43,10 +43,10 @@
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
           <tr>
-            <th scope="col">No</th>
-            <th scope="col">Exercise</th>
-            <th scope="col">Diagram</th>
-            <th scope="col">Body Part</th>
+            <th>No</th>
+            <th>Exercise</th>
+            <th>Diagram</th>
+            <th>Body Part</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -54,13 +54,13 @@
     </div>
     <div id="day2" class="tab-pane container-fluid mt-4">
       <h2>Day 2: Back, Biceps, Forearms (Part 1)</h2>
-      <table class="table table-hover">
+      <table class="table table-bordered table-hover">
         <thead class="table-dark">
           <tr>
-            <th scope="col">No</th>
-            <th scope="col">Exercise</th>
-            <th scope="col">Diagram</th>
-            <th scope="col">Body Part</th>
+            <th>No</th>
+            <th>Exercise</th>
+            <th>Diagram</th>
+            <th>Body Part</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -71,10 +71,10 @@
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
           <tr>
-            <th scope="col">No</th>
-            <th scope="col">Exercise</th>
-            <th scope="col">Diagram</th>
-            <th scope="col">Body Part</th>
+            <th>No</th>
+            <th>Exercise</th>
+            <th>Diagram</th>
+            <th>Body Part</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -85,10 +85,10 @@
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
           <tr>
-            <th scope="col">No</th>
-            <th scope="col">Exercise</th>
-            <th scope="col">Diagram</th>
-            <th scope="col">Body Part</th>
+            <th>No</th>
+            <th>Exercise</th>
+            <th>Diagram</th>
+            <th>Body Part</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -99,10 +99,10 @@
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
           <tr>
-            <th scope="col">No</th>
-            <th scope="col">Exercise</th>
-            <th scope="col">Diagram</th>
-            <th scope="col">Body Part</th>
+            <th>No</th>
+            <th>Exercise</th>
+            <th>Diagram</th>
+            <th>Body Part</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -113,10 +113,10 @@
       <table class="table table-bordered table-hover">
         <thead class="table-dark">
           <tr>
-            <th scope="col">No</th>
-            <th scope="col">Exercise</th>
-            <th scope="col">Diagram</th>
-            <th scope="col">Body Part</th>
+            <th>No</th>
+            <th>Exercise</th>
+            <th>Diagram</th>
+            <th>Body Part</th>
           </tr>
         </thead>
         <tbody></tbody>
@@ -290,29 +290,32 @@
   </script>
   <script>
     Array.from(document.getElementsByClassName('table')).forEach(function(table) {
-      var id = table.parentNode.id
+      var id = table.parentNode.id;
       if (data[id]) {
         Array.from(data[id]).forEach(function(item) {
-          var row = table.lastElementChild.insertRow()
-          var cell1 = row.insertCell()
-          cell1.innerHTML = item.no
-          var cell2 = row.insertCell()
-          var a = document.createElement('a')
-          a.href = item.youtube
-          a.innerText = item.exercise
-          cell2.appendChild(a)
-          var cell3 = row.insertCell()
-          var img = document.createElement('img')
-          img.src = item.image
-          img.alt = item.image.split('/').pop()
-          img.class = 'img-fluid'
-          img.style = 'max-width:100%;height:auto;'
-          cell3.appendChild(img)
-          var cell4 = row.insertCell()
-          cell4.innerHTML = item.part
-        })
+          var row = table.lastElementChild.insertRow();
+          var cell1 = row.insertCell();
+          cell1.style = 'width:5vw;height:auto;';
+          cell1.innerHTML = item.no;
+          var cell2 = row.insertCell();
+          var a = document.createElement('a');
+          a.href = item.youtube;
+          a.innerText = item.exercise;
+          cell2.style = 'width:20vw;height:auto;';
+          cell2.appendChild(a);
+          var cell3 = row.insertCell();
+          var img = document.createElement('img');
+          img.src = item.image;
+          img.alt = item.image.split('/').pop();
+          img.class = 'img-fluid';
+          img.style = 'width:50vw;height:auto;';
+          cell3.appendChild(img);
+          var cell4 = row.insertCell();
+          cell4.style = 'width:10vw;height:auto;';
+          cell4.innerHTML = item.part;
+        });
       }
-    })
+    });
   </script>
   <script>
     var dow = {
@@ -325,11 +328,11 @@
       6: 'day6'
     };
     var today = new Date();
-    var id = dow[today.getDay()]
+    var id = dow[today.getDay()];
     var tab = document.getElementById(id);
-    tab.classList.add('active')
-    var tabPane = document.getElementById(id + '-link')
-    tabPane.classList.add('active')
+    tab.classList.add('active');
+    var tabPane = document.getElementById(id + '-link');
+    tabPane.classList.add('active');
   </script>
 </body>
 </html>
