@@ -14,6 +14,7 @@ var data = {
       youtube: 'https://www.youtube.com/watch?v=2yjwXTZQDDI', 
       image: 'https://fitnessvolt.com/wp-content/uploads/2019/04/barbell-overhead-press.jpg'
     }, 
+    
     {
       no: 3,
       exercise: 'Triceps Rope Pushdown',
