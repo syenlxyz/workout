@@ -39,12 +39,10 @@ def create_table(array):
             item['no'],
             create_link(item['exercise'], item['youtube']),
             create_img(item['image']),
-            item['part'],
-            item['sets'],
-            item['reps']
+            item['part']
         ]
         table.append(row)
-    headers = ['No', 'Exercise', 'Diagram', 'Body Part', 'Sets', 'Reps']
+    headers = ['No', 'Exercise', 'Diagram', 'Body Part']
     html = tabulate(table, headers, tablefmt='unsafehtml', disable_numparse=True)
     soup = BeautifulSoup(html, 'html.parser')
     return soup
