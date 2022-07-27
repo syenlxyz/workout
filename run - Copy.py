@@ -50,14 +50,14 @@ def create_table(array):
     return soup
 
 def create_link(name, url):
-    soup = BeautifulSoup()
+    soup = BeautifulSoup(features='lxml')
     a = soup.new_tag('a')
     a.string = name
     a['href'] = url
     return str(a)
 
 def create_img(url):
-    soup = BeautifulSoup()
+    soup = BeautifulSoup(features='lxml')
     img = soup.new_tag('img')
     img['src'] = url
     img['alt'] = url.split('/')[-1]
