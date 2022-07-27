@@ -1,0 +1,29 @@
+img {
+  width: 50vw;
+  height: auto;
+}
+
+table th:nth-child(1) {
+  width: 5vw;
+  height: auto;
+}
+
+table th:nth-child(2) {
+  width: 20vw;
+  height: auto;
+}
+
+table th:nth-child(4) {
+  width: 10vw;
+  height: auto;
+}
+
+table th:nth-child(5) {
+  width: 5vw;
+  height: auto;
+}
+
+table th:nth-child(6) {
+  width: 5vw;
+  height: auto;
+}
