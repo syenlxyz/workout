@@ -132,8 +132,71 @@
   "day3": [
     {
       "no": 1,
-      "exercise": "Coming Soon",
-      "part": "",
+      "exercise": "Barbell Smith Machine Lunges",
+      "part": "Quadriceps, Glutes and Hamstring",
+      "youtube": "", 
+      "image": ""
+    }, 
+    {
+      "no": 2,
+      "exercise": "Barbell Back Squat",
+      "part": "Quadriceps and Glutes",
+      "youtube": "", 
+      "image": ""
+    }, 
+    {
+      "no": 3,
+      "exercise": "Leg Extension",
+      "part": "Quadriceps",
+      "youtube": "", 
+      "image": ""
+    }, 
+    {
+      "no": 4,
+      "exercise": "Dumbbell Romanian Deadlift",
+      "part": "Quadriceps, Glutes and Hamstring",
+      "youtube": "", 
+      "image": ""
+    }, 
+    {
+      "no": 5,
+      "exercise": "Lying DB Leg Curl or Machine Hamstring Curl",
+      "part": "Hamstring",
+      "youtube": "", 
+      "image": ""
+    }, 
+    {
+      "no": 6,
+      "exercise": "Weighted Glute Bridge",
+      "part": "Glutes",
+      "youtube": "", 
+      "image": ""
+    }, 
+    {
+      "no": 7,
+      "exercise": "Calf Raise",
+      "part": "Calves",
+      "youtube": "", 
+      "image": ""
+    }, 
+    {
+      "no": 8,
+      "exercise": "Sit Up",
+      "part": "Core",
+      "youtube": "", 
+      "image": ""
+    }, 
+    {
+      "no": 9,
+      "exercise": "Leg Raise",
+      "part": "Core",
+      "youtube": "", 
+      "image": ""
+    }, 
+    {
+      "no": 10,
+      "exercise": "Plank",
+      "part": "Core",
       "youtube": "", 
       "image": ""
     }
