@@ -26,6 +26,7 @@ def create_html():
 
     for th in soup.find_all('th'):
         th['scope'] = 'col'
+        th['class'] = 'align-middle'
 
     output_path = Path.cwd() / 'index.html'
     with open(output_path, 'w') as file:
@@ -48,14 +49,14 @@ def create_table(array):
     return soup
 
 def create_link(name, url):
-    soup = BeautifulSoup(features='lxml')
+    soup = BeautifulSoup(features='html.parser')
     a = soup.new_tag('a')
     a.string = name
     a['href'] = url
     return str(a)
 
 def create_img(url):
-    soup = BeautifulSoup(features='lxml')
+    soup = BeautifulSoup(features='html.parser')
     img = soup.new_tag('img')
     img['src'] = url
     img['alt'] = url.split('/')[-1]
