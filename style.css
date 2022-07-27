@@ -1,5 +1,5 @@
 img {
-  max-width: 100%;
+  width: 50vw;
   height: auto;
 }
 
@@ -20,5 +20,15 @@ table th:nth-child(3), table td:nth-child(3) {
 
 table th:nth-child(4), table td:nth-child(4) {
   width: 10vw;
+  height: auto;
+}
+
+table th:nth-child(5), table td:nth-child(5) {
+  width: 5vw;
+  height: auto;
+}
+
+table th:nth-child(6), table td:nth-child(6) {
+  width: 5vw;
   height: auto;
 }
