@@ -148,14 +148,14 @@
           var row = table.insertRow();
 
           var cell1 = row.insertCell();
-          cell1.style = 'width:5vw;height:auto;';
+          cell1.style = 'width:5vw; height:auto;';
           cell1.innerHTML = item.no;
 
           var cell2 = row.insertCell();
           var a = document.createElement('a');
           a.href = item.youtube;
           a.innerText = item.exercise;
-          cell2.style = 'width:20vw;height:auto;';
+          cell2.style = 'width:20vw; height:auto;';
           cell2.appendChild(a);
 
           var cell3 = row.insertCell();
@@ -163,11 +163,11 @@
           img.src = item.image;
           img.alt = item.image.split('/').pop();
           img.class = 'img-fluid';
-          img.style = 'width:50vw;height:auto;';
+          img.style = 'width:50vw; height:auto;';
           cell3.appendChild(img);
           
           var cell4 = row.insertCell();
-          cell4.style = 'width:10vw;height:auto;';
+          cell4.style = 'width:10vw; height:auto;';
           cell4.innerHTML = item.part;
         });
       }
