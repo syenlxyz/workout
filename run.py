@@ -39,25 +39,23 @@ def create_table(array):
             item['no'],
             create_link(item['exercise'], item['youtube']),
             create_img(item['image']),
-            item['part'],
-            item['sets'],
-            item['reps']
+            item['part']
         ]
         table.append(row)
-    headers = ['No', 'Exercise', 'Diagram', 'Body Part', 'Sets', 'Reps']
+    headers = ['No', 'Exercise', 'Diagram', 'Body Part']
     html = tabulate(table, headers, tablefmt='unsafehtml', disable_numparse=True)
     soup = BeautifulSoup(html, 'html.parser')
     return soup
 
 def create_link(name, url):
-    soup = BeautifulSoup()
+    soup = BeautifulSoup(features='lxml')
     a = soup.new_tag('a')
     a.string = name
     a['href'] = url
     return str(a)
 
 def create_img(url):
-    soup = BeautifulSoup()
+    soup = BeautifulSoup(features='lxml')
     img = soup.new_tag('img')
     img['src'] = url
     img['alt'] = url.split('/')[-1]
