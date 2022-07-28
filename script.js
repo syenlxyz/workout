@@ -1,4 +1,4 @@
-var id = 'day3'
+var id = 'mrt'
 
 var tab = document.getElementById(id);
 tab.classList.add('active');
