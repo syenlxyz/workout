@@ -134,71 +134,65 @@
       "no": 1,
       "exercise": "Barbell Smith Machine Lunges",
       "part": "Quadriceps, Glutes and Hamstring",
-      "youtube": "", 
-      "image": ""
+      "youtube": "https://www.youtube.com/watch?v=AHnX-aimA4E", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2020/06/smith-machine-split-squats.jpg"
     }, 
     {
       "no": 2,
       "exercise": "Barbell Back Squat",
       "part": "Quadriceps and Glutes",
-      "youtube": "", 
-      "image": ""
+      "youtube": "https://www.youtube.com/watch?v=SW_C1A-rejs", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-squat.jpg"
     }, 
     {
       "no": 3,
-      "exercise": "Leg Extension",
-      "part": "Quadriceps",
-      "youtube": "", 
-      "image": ""
+      "exercise": "Machine Hamstring Curl",
+      "part": "Hamstring",
+      "youtube": "https://www.youtube.com/watch?v=1Tq3QdYUuHs", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/lying-leg-curl.jpg"
     }, 
     {
       "no": 4,
-      "exercise": "Dumbbell Romanian Deadlift",
-      "part": "Quadriceps, Glutes and Hamstring",
-      "youtube": "", 
-      "image": ""
+      "exercise": "Leg Extension",
+      "part": "Quadriceps",
+      "youtube": "https://www.youtube.com/watch?v=YyvSfVjQeL0", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/leg-extension.jpg"
     }, 
     {
       "no": 5,
-      "exercise": "Lying DB Leg Curl or Machine Hamstring Curl",
-      "part": "Hamstring",
-      "youtube": "", 
-      "image": ""
-    }, 
-    {
-      "no": 6,
-      "exercise": "Weighted Glute Bridge",
-      "part": "Glutes",
-      "youtube": "", 
-      "image": ""
-    }, 
-    {
-      "no": 7,
-      "exercise": "Calf Raise",
-      "part": "Calves",
-      "youtube": "", 
-      "image": ""
-    }, 
-    {
-      "no": 8,
-      "exercise": "Sit Up",
-      "part": "Core",
-      "youtube": "", 
-      "image": ""
-    }, 
-    {
-      "no": 9,
       "exercise": "Leg Raise",
       "part": "Core",
-      "youtube": "", 
-      "image": ""
-    }, 
+      "youtube": "https://www.youtube.com/watch?v=ghwdoXHeiIk", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/captains-chair-leg-raise.jpg"
+    },
     {
-      "no": 10,
-      "exercise": "Plank",
+      "no": 6,
+      "exercise": "Calf Raise",
+      "part": "Calves",
+      "youtube": "https://www.youtube.com/watch?v=YMmgqO8Jo-k", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/machine-standing-calf-raise.jpg"
+    },
+    {
+      "no": 7,
+      "exercise": "Dumbbell Romanian Deadlift",
+      "part": "Quadriceps, Glutes and Hamstring",
+      "youtube": "https://www.youtube.com/watch?v=FQKfr1YDhEk", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-deadlift.jpg"
+    }, 
+
+    {
+      "no": 8,
+      "exercise": "Lying Dumbbell Leg Curl",
+      "part": "Hamstring",
+      "youtube": "https://www.youtube.com/watch?v=xSjmKTf4QbA", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-leg-curl.jpg"
+    },
+    {
+      "no": 9,
+      "exercise": "Sit Up",
       "part": "Core",
-      "youtube": "", 
-      "image": ""
+      "youtube": "https://www.youtube.com/watch?v=QhGU5cmNZds", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/decline-sit-up.jpg"
     }
   ],
   "day4": [
