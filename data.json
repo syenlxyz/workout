@@ -1,225 +1,150 @@
 {
-  "day1": [
+  "push": [
     {
       "no": 1, 
-      "exercise": "Barbell Flat Bench Press", 
-      "part": "Chest", 
-      "youtube": "https://www.youtube.com/watch?v=rT7DgCr-3pg", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-bench-press.jpg"
+      "exercise": "Inclined Barbell Bench Press", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=DbFgADa2PL8", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/incline-barbell-bench-press.jpg"
     },
     {
-      "no": 2,
-      "exercise": "Barbell Overhead Press",
-      "part": "Shoulder",
+      "no": 2, 
+      "exercise": "Close-Grip Barbell Bench Press", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=nEF0bv2FW94", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/close-grip-barbell-bench-press.jpg"
+    },
+    {
+      "no": 3, 
+      "exercise": "Standing Barbell Military Press", 
+      "part": "", 
       "youtube": "https://www.youtube.com/watch?v=2yjwXTZQDDI", 
       "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/barbell-overhead-press.jpg"
-    }, 
+    },
     {
-      "no": 3,
-      "exercise": "Triceps Rope Pushdown",
-      "part": "Triceps",
+      "no": 4, 
+      "exercise": "Rope Push Down", 
+      "part": "", 
       "youtube": "https://www.youtube.com/watch?v=vB5OHsJ3EME", 
       "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/triceps-rope-push-down.jpg"
     },
     {
-      "no": 4,
-      "exercise": "Incline Dumbbell Press",
-      "part": "Chest",
-      "youtube": "https://www.youtube.com/watch?v=8iPEnn-ltC8", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/incline-dumbbell-bench-press.jpg"
-    }, 
-    {
-      "no": 5,
-      "exercise": "Dumbbell Front Lateral Raise",
-      "part": "Shoulder",
-      "youtube": "https://www.youtube.com/watch?v=3VcKaXpzqRo", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-lateral-raise.jpg"
-    }, 
-    {
-      "no": 6,
-      "exercise": "Incline Dumbbell Overhead Extension",
-      "part": "Triceps",
-      "youtube": "https://www.youtube.com/watch?v=YbX7Wd8jQ-Q", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/incline-dumbbell-triceps-extension.jpg"
-    }, 
-    {
-      "no": 7,
-      "exercise": "Dumbbell Pullover",
-      "part": "Chest",
-      "youtube": "https://www.youtube.com/watch?v=tpLnfSQJ0gg", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-pullover.jpg"
-    }, 
-    {
-      "no": 8,
-      "exercise": "Bent Over Lateral Raise",
-      "part": "Shoulder",
-      "youtube": "https://www.youtube.com/watch?v=ttvfGg9d76c", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-bent-over-lateral-raise.jpg"
-    }, 
-    {
-      "no": 9,
-      "exercise": "Triangle Push Up",
-      "part": "Triceps",
-      "youtube": "https://www.youtube.com/watch?v=J0DnG1_S92I", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/diamond-push-up.jpg"
+      "no": 5, 
+      "exercise": "Flat Dumbbell Bench Press", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=VmB1G1K7v94", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-bench-press.jpg"
     }
   ],
-  "day2": [
+  "pull": [
     {
-      "no": 1,
-      "exercise": "Pull Up",
-      "part": "Back",
-      "youtube": "https://www.youtube.com/watch?v=8XrB3eV3_ZE", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/pull-up.jpg"
-    }, 
+      "no": 1, 
+      "exercise": "Barbell Deadlift", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=-4qRntuXBSc", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-deadlift.jpg"
+    },
     {
-      "no": 2,
-      "exercise": "Chin Up",
-      "part": "Biceps",
-      "youtube": "https://www.youtube.com/watch?v=40A3NGv31lE", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/machine-assisted-close-neutral-grip-pull-up.jpg"
-    }, 
+      "no": 2, 
+      "exercise": "Barbell Curl", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=QZEqB6wUPxQ", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/barbell-curl.jpg"
+    },
     {
-      "no": 3,
-      "exercise": "Barbell Bent Over Row",
-      "part": "Back",
-      "youtube": "https://www.youtube.com/watch?v=9efgcAjQe7E", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/bent-over-barbell-row.jpg"
-    }, 
-    {
-      "no": 4,
-      "exercise": "Preacher Curl",
-      "part": "Biceps",
-      "youtube": "https://www.youtube.com/watch?v=nbcgEmZ0Be4", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2020/08/barbell-preacher-curl.jpg"
-    }, 
-    {
-      "no": 5,
-      "exercise": "Wide Grip Lat Pulldown",
-      "part": "Back",
-      "youtube": "https://www.youtube.com/watch?v=CAwf7n6Luuc", 
+      "no": 3, 
+      "exercise": "Seated Lat Pulldown", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=X5n55mMqSUs", 
       "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/wide-grip-lat-pull-down.jpg"
-    }, 
+    },
     {
-      "no": 6,
-      "exercise": "EZ Bar Standing Biceps Curl",
-      "part": "Biceps",
-      "youtube": "https://www.youtube.com/watch?v=zG2xJ0Q5QtI", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/ez-bar-curl.jpg"
-    }, 
+      "no": 4, 
+      "exercise": "Dumbbell Hammer Curl", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=zC3nLlEvin4", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-hammer-curl.jpg"
+    },
     {
-      "no": 7,
-      "exercise": "One Arm Dumbbell Rowing",
-      "part": "Back",
-      "youtube": "https://www.youtube.com/watch?v=KRN38chlkds", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/bent-over-dumbbell-row.jpg"
-    }, 
-    {
-      "no": 8,
-      "exercise": "Dumbbell Alternate Biceps Curl",
-      "part": "Biceps",
-      "youtube": "https://www.youtube.com/watch?v=sAq_ocpRh_I", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-curl.jpg"
-    }, 
-    {
-      "no": 9,
-      "exercise": "Palm Up Dumbbell Wrist Curl",
-      "part": "Wrist and Forearm",
-      "youtube": "https://www.youtube.com/watch?v=qMtmHwaCmYI", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-one-arm-reverse-wrist-curl.jpg"
-    } 
+      "no": 5, 
+      "exercise": "Barbell Stiff-Leg Deadlift", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=1uDiW5--rAE", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-straight-back-stiff-leg-deadlift.jpg"
+    }
   ],
-  "day3": [
+  "legs": [
     {
-      "no": 1,
-      "exercise": "Barbell Smith Machine Lunges",
-      "part": "Quadriceps, Glutes and Hamstring",
-      "youtube": "https://www.youtube.com/watch?v=AHnX-aimA4E", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2020/06/smith-machine-split-squats.jpg"
-    }, 
-    {
-      "no": 2,
-      "exercise": "Barbell Back Squat",
-      "part": "Quadriceps and Glutes",
+      "no": 1, 
+      "exercise": "Barbell Back Squat", 
+      "part": "", 
       "youtube": "https://www.youtube.com/watch?v=SW_C1A-rejs", 
       "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-squat.jpg"
-    }, 
-    {
-      "no": 3,
-      "exercise": "Machine Hamstring Curl",
-      "part": "Hamstring",
-      "youtube": "https://www.youtube.com/watch?v=1Tq3QdYUuHs", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/lying-leg-curl.jpg"
-    }, 
-    {
-      "no": 4,
-      "exercise": "Leg Extension",
-      "part": "Quadriceps",
-      "youtube": "https://www.youtube.com/watch?v=YyvSfVjQeL0", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/leg-extension.jpg"
-    }, 
-    {
-      "no": 5,
-      "exercise": "Leg Raise",
-      "part": "Core",
-      "youtube": "https://www.youtube.com/watch?v=ghwdoXHeiIk", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/captains-chair-leg-raise.jpg"
     },
     {
-      "no": 6,
-      "exercise": "Calf Raise",
-      "part": "Calves",
+      "no": 2, 
+      "exercise": "Bumbbell Bulgarian Split Squat", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=2C-uNgKwPLE", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-bulgarian-split-squat.jpg"
+    },
+    {
+      "no": 3, 
+      "exercise": "Seated Leg Press", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=IZxyjW7MPJQ", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/sled-calf-press.jpg"
+    },
+    {
+      "no": 4, 
+      "exercise": "Dumbbell Lunge", 
+      "part": "", 
+      "youtube": "https://www.youtube.com/watch?v=D7KaRcUTQeE", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-lunge.jpg"
+    },
+    {
+      "no": 5, 
+      "exercise": "Seated Calf Raise", 
+      "part": "", 
       "youtube": "https://www.youtube.com/watch?v=YMmgqO8Jo-k", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/machine-standing-calf-raise.jpg"
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/machine-seated-calf-raise.jpg"
+    }
+  ], 
+  "mrt": [
+    {
+      "no": 1, 
+      "exercise": "Dumbbell Squat", 
+      "part": "", 
+      "youtube": "https://youtu.be/32vlgLPgWVo?t=99", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-squat.jpg"
     },
     {
-      "no": 7,
-      "exercise": "Dumbbell Romanian Deadlift",
-      "part": "Quadriceps, Glutes and Hamstring",
-      "youtube": "https://www.youtube.com/watch?v=FQKfr1YDhEk", 
+      "no": 2, 
+      "exercise": "Bent-Over Dumbbell Row", 
+      "part": "", 
+      "youtube": "https://youtu.be/32vlgLPgWVo?t=128", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/bent-over-two-arm-dumbbell-row.jpg"
+    },
+    {
+      "no": 3, 
+      "exercise": "Dumbbell Bench Press", 
+      "part": "", 
+      "youtube": "https://youtu.be/32vlgLPgWVo?t=166", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-bench-press.jpg"
+    },
+    {
+      "no": 4, 
+      "exercise": "Dumbbell Deadlift", 
+      "part": "", 
+      "youtube": "https://youtu.be/32vlgLPgWVo?t=213", 
       "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-deadlift.jpg"
-    }, 
-
-    {
-      "no": 8,
-      "exercise": "Lying Dumbbell Leg Curl",
-      "part": "Hamstring",
-      "youtube": "https://www.youtube.com/watch?v=xSjmKTf4QbA", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-leg-curl.jpg"
     },
     {
-      "no": 9,
-      "exercise": "Sit Up",
-      "part": "Core",
-      "youtube": "https://www.youtube.com/watch?v=QhGU5cmNZds", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/decline-sit-up.jpg"
-    }
-  ],
-  "day4": [
-    {
-      "no": 1,
-      "exercise": "Coming Soon",
-      "part": "",
-      "youtube": "", 
-      "image": ""
-    }
-  ],
-  "day5": [
-    {
-      "no": 1,
-      "exercise": "Coming Soon",
-      "part": "",
-      "youtube": "", 
-      "image": ""
-    }
-  ],
-  "day6": [
-    {
-      "no": 1,
-      "exercise": "Coming Soon",
-      "part": "",
-      "youtube": "", 
-      "image": ""
+      "no": 5, 
+      "exercise": "Dumbbell Shoulder Press", 
+      "part": "", 
+      "youtube": "https://youtu.be/32vlgLPgWVo?t=250", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/seated-dumbbell-overhead-press.jpg"
     }
   ]
 }
