@@ -1,4 +1,4 @@
-var id = 'mrt'
+var id = 'push'
 
 var tab = document.getElementById(id);
 tab.classList.add('active');
