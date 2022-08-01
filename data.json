@@ -109,42 +109,5 @@
       "youtube": "https://www.youtube.com/watch?v=YMmgqO8Jo-k", 
       "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/machine-seated-calf-raise.jpg"
     }
-  ], 
-  "mrt": [
-    {
-      "no": 1, 
-      "exercise": "Dumbbell Squat", 
-      "part": "", 
-      "youtube": "https://youtu.be/32vlgLPgWVo?t=99", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-squat.jpg"
-    },
-    {
-      "no": 2, 
-      "exercise": "Bent-Over Dumbbell Row", 
-      "part": "", 
-      "youtube": "https://youtu.be/32vlgLPgWVo?t=128", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/bent-over-two-arm-dumbbell-row.jpg"
-    },
-    {
-      "no": 3, 
-      "exercise": "Dumbbell Bench Press", 
-      "part": "", 
-      "youtube": "https://youtu.be/32vlgLPgWVo?t=166", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-bench-press.jpg"
-    },
-    {
-      "no": 4, 
-      "exercise": "Dumbbell Deadlift", 
-      "part": "", 
-      "youtube": "https://youtu.be/32vlgLPgWVo?t=213", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-deadlift.jpg"
-    },
-    {
-      "no": 5, 
-      "exercise": "Dumbbell Shoulder Press", 
-      "part": "", 
-      "youtube": "https://youtu.be/32vlgLPgWVo?t=250", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/seated-dumbbell-overhead-press.jpg"
-    }
   ]
 }
