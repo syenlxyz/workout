@@ -2,38 +2,38 @@
   "push": [
     {
       "no": 1, 
-      "exercise": "Inclined Barbell Bench Press", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=DbFgADa2PL8", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/incline-barbell-bench-press.jpg"
+      "exercise": "Barbell Bench Press / Chest Press", 
+      "part": "Chest", 
+      "youtube": "https://www.youtube.com/watch?v=rT7DgCr-3pg", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-bench-press.jpg"
     },
     {
       "no": 2, 
-      "exercise": "Close-Grip Barbell Bench Press", 
-      "part": "", 
+      "exercise": "Barbell Shoulder Press / Overhead Press", 
+      "part": "Shoulder", 
+      "youtube": "youtube.com/watch?v=2yjwXTZQDDI", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/barbell-overhead-press.jpg"
+    },
+    {
+      "no": 3, 
+      "exercise": "Close-Grip Overhand Barbell Bench Press", 
+      "part": "Triceps", 
       "youtube": "https://www.youtube.com/watch?v=nEF0bv2FW94", 
       "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/close-grip-barbell-bench-press.jpg"
     },
     {
-      "no": 3, 
-      "exercise": "Standing Barbell Military Press", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=2yjwXTZQDDI", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/barbell-overhead-press.jpg"
-    },
-    {
       "no": 4, 
-      "exercise": "Rope Push Down", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=vB5OHsJ3EME", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/triceps-rope-push-down.jpg"
+      "exercise": "Dumbbell Pullovers", 
+      "part": "Chest", 
+      "youtube": "https://www.youtube.com/watch?v=tpLnfSQJ0gg", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-pullover.jpg"
     },
     {
       "no": 5, 
-      "exercise": "Flat Dumbbell Bench Press", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=VmB1G1K7v94", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-bench-press.jpg"
+      "exercise": "Dumbbell Bent Over Lateral Rear Delt Raises / Flyes", 
+      "part": "Shoulder", 
+      "youtube": "https://www.youtube.com/watch?v=ttvfGg9d76c", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-bent-over-lateral-raise.jpg"
     }
   ],
   "pull": [
