@@ -39,38 +39,38 @@
   "pull": [
     {
       "no": 1, 
-      "exercise": "Barbell Deadlift", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=-4qRntuXBSc", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-deadlift.jpg"
+      "exercise": "Machine Assisted Pull-ups / Pullups", 
+      "part": "Middle Back", 
+      "youtube": "https://www.youtube.com/watch?v=ylVmNQlKdAI", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/machine-assisted-pull-up.jpg"
     },
     {
       "no": 2, 
-      "exercise": "Barbell Curl", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=QZEqB6wUPxQ", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/barbell-curl.jpg"
+      "exercise": "Cable Hammer Bicep Curls", 
+      "part": "Biceps", 
+      "youtube": "https://www.youtube.com/watch?v=1Quc_tOv97I", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/cable-curl.jpg"
     },
     {
       "no": 3, 
-      "exercise": "Seated Lat Pulldown", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=X5n55mMqSUs", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/wide-grip-lat-pull-down.jpg"
+      "exercise": "Seated Dumbbell Palm-Down Wrist Curls / Forearm Curls", 
+      "part": "Forearms", 
+      "youtube": "https://www.youtube.com/watch?v=qMtmHwaCmYI", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/seated-dumbbell-wrist-curl.jpg"
     },
     {
       "no": 4, 
-      "exercise": "Dumbbell Hammer Curl", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=zC3nLlEvin4", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-hammer-curl.jpg"
+      "exercise": "Bent Over Barbell Rows", 
+      "part": "Lower Back, Middle Back", 
+      "youtube": "https://www.youtube.com/watch?v=9efgcAjQe7E", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/bent-over-barbell-row.jpg"
     },
     {
       "no": 5, 
-      "exercise": "Barbell Stiff-Leg Deadlift", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=1uDiW5--rAE", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-straight-back-stiff-leg-deadlift.jpg"
+      "exercise": "Seated Dumbbell Bicep Curls", 
+      "part": "Biceps", 
+      "youtube": "https://www.youtube.com/watch?v=soxrZlIl35U", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/incline-dumbbell-curl.jpg"
     }
   ],
   "legs": [
