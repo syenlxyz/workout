@@ -76,38 +76,38 @@
   "legs": [
     {
       "no": 1, 
-      "exercise": "Barbell Back Squat", 
-      "part": "", 
+      "exercise": "Barbell Squats", 
+      "part": "Glutes, Quadriceps", 
       "youtube": "https://www.youtube.com/watch?v=SW_C1A-rejs", 
       "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-squat.jpg"
     },
     {
       "no": 2, 
-      "exercise": "Bumbbell Bulgarian Split Squat", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=2C-uNgKwPLE", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-bulgarian-split-squat.jpg"
+      "exercise": "Barbell Deadlifts", 
+      "part": "Lower Back", 
+      "youtube": "https://www.youtube.com/watch?v=7Q_GnXm7LbI", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-deadlift.jpg"
     },
     {
       "no": 3, 
-      "exercise": "Seated Leg Press", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=IZxyjW7MPJQ", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/sled-calf-press.jpg"
+      "exercise": "Leg Press Machine Calf Raises", 
+      "part": "Calves", 
+      "youtube": "https://www.youtube.com/watch?v=YMmgqO8Jo-k", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/machine-seated-calf-raise.jpg"
     },
     {
       "no": 4, 
-      "exercise": "Dumbbell Lunge", 
-      "part": "", 
+      "exercise": "Dumbbell Lunges", 
+      "part": "Glutes, Quadriceps", 
       "youtube": "https://www.youtube.com/watch?v=D7KaRcUTQeE", 
       "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-lunge.jpg"
     },
     {
       "no": 5, 
-      "exercise": "Seated Calf Raise", 
-      "part": "", 
-      "youtube": "https://www.youtube.com/watch?v=YMmgqO8Jo-k", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/machine-seated-calf-raise.jpg"
+      "exercise": "Leg Press / Machine Squat Press", 
+      "part": "Glutes, Quadriceps", 
+      "youtube": "https://www.youtube.com/watch?v=oujca3_Shgw", 
+      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/sled-calf-press.jpg"
     }
   ]
 }
