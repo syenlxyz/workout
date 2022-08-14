@@ -1,56 +1,8 @@
 {
-  "day1": [
-    {
-      "no": 1, 
-      "exercise": "", 
-      "part": "", 
-      "youtube": "", 
-      "image": ""
-    }
-  ],
-  "day2": [
-    {
-      "no": 1, 
-      "exercise": "", 
-      "part": "", 
-      "youtube": "", 
-      "image": ""
-    }
-  ],
-  "day3": [
-    {
-      "no": 1, 
-      "exercise": "", 
-      "part": "", 
-      "youtube": "", 
-      "image": ""
-    }
-  ],
-  "day4": [
-    {
-      "no": 1, 
-      "exercise": "", 
-      "part": "", 
-      "youtube": "", 
-      "image": ""
-    }
-  ],
-  "day5": [
-    {
-      "no": 1, 
-      "exercise": "", 
-      "part": "", 
-      "youtube": "", 
-      "image": ""
-    }
-  ],
-  "day6": [
-    {
-      "no": 1, 
-      "exercise": "", 
-      "part": "", 
-      "youtube": "", 
-      "image": ""
-    }
-  ]
+    "day1": [{"No":"1A","Exercise":"Barbell Bench Press \/ Chest Press","Body Part":"Chest","Link":"https:\/\/workoutlabs.com\/exercise-guide\/barbell-bench-press\/","Image":"https:\/\/workoutlabs.com\/train\/svg.php?id=31018"},{"No":"1B","Exercise":"Dumbbell Flat Bench Press","Body Part":"Chest","Link":"https:\/\/workoutlabs.com\/exercise-guide\/dumbbell-bench-press\/","Image":"https:\/\/workoutlabs.com\/train\/svg.php?id=31422"},{"No":"2A","Exercise":"Machine Seated Shoulder Press","Body Part":"Shoulders","Link":"https:\/\/workoutlabs.com\/exercise-guide\/machine-seated-shoulder-press\/","Image":"https:\/\/workoutlabs.com\/train\/svg.php?id=31842"},{"No":"2B","Exercise":"Dumbbell Overhead Shoulder Press","Body Part":"Shoulders","Link":"https:\/\/workoutlabs.com\/exercise-guide\/dumbbell-shoulder-press\/","Image":"https:\/\/workoutlabs.com\/train\/svg.php?id=31466"},{"No":"3","Exercise":"Assisted Triceps Dip","Body Part":"Triceps","Link":"https:\/\/workoutlabs.com\/exercise-guide\/assisted-tricep-dips\/","Image":"https:\/\/workoutlabs.com\/train\/svg.php?id=30994"},{"No":"4A","Exercise":"Standing Cable Crossover Press \/ Fly","Body Part":"Chest","Link":"https:\/\/workoutlabs.com\/exercise-guide\/standing-cable-fly-press\/","Image":"https:\/\/workoutlabs.com\/train\/svg.php?id=32418"},{"No":"4B","Exercise":"Butterflies \/ Pec Deck \/ Seated Machine Fly","Body Part":"Chest","Link":"https:\/\/workoutlabs.com\/exercise-guide\/butterfly\/","Image":"https:\/\/workoutlabs.com\/train\/svg.php?id=31258"},{"No":"5A","Exercise":"Triceps Cable Rope Push \/Pull Down","Body Part":"Triceps","Link":"https:\/\/workoutlabs.com\/exercise-guide\/triceps-pushdowns\/","Image":"https:\/\/workoutlabs.com\/train\/svg.php?id=32630"},{"No":"5B","Exercise":"Assisted \/ Machine Seated Triceps Dip","Body Part":"Triceps","Link":"https:\/\/workoutlabs.com\/exercise-guide\/assisted-machine-seated-tricep-dips\/","Image":"https:\/\/workoutlabs.com\/train\/svg.php?id=30998"},{"No":"6","Exercise":"Seated Lateral \/ Side Shoulder Dumbbell Raise","Body Part":"Shoulders","Link":"https:\/\/workoutlabs.com\/exercise-guide\/seated-lateral-shoulder-dumbbell-raise\/","Image":"https:\/\/workoutlabs.com\/train\/svg.php?id=32202"}],
+    "day2": [{"No":"1","Exercise":"","Body Part":"","Link":"", "Image": ""}],
+    "day3": [{"No":"1","Exercise":"","Body Part":"","Link":"", "Image": ""}],
+    "day4": [{"No":"1","Exercise":"","Body Part":"","Link":"", "Image": ""}],
+    "day5": [{"No":"1","Exercise":"","Body Part":"","Link":"", "Image": ""}],
+    "day6": [{"No":"1","Exercise":"","Body Part":"","Link":"", "Image": ""}]
 }
