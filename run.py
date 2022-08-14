@@ -45,10 +45,10 @@ def create_table(array):
     table = []
     for item in array:
         row = [
-            item['no'],
-            create_link(item['exercise'], item['youtube']),
-            create_img(item['image']),
-            item['part']
+            item['No'],
+            create_link(item['Exercise'], item['Link']),
+            create_img(item['Image'], item['Link']),
+            item['Body Part']
         ]
         table.append(row)
     headers = ['No', 'Exercise', 'Diagram', 'Body Part']
@@ -65,10 +65,10 @@ def create_link(name, url):
     return str(a)
 
 # Create <img> tag element
-def create_img(url):
+def create_img(src, url):
     soup = BeautifulSoup(features='html.parser')
     img = soup.new_tag('img')
-    img['src'] = url
+    img['src'] = src
     img['alt'] = url.split('/')[-1]
     return str(img)
 
