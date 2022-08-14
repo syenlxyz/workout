@@ -1,113 +1,56 @@
 {
-  "push": [
+  "day1": [
     {
       "no": 1, 
-      "exercise": "Barbell Bench Press / Chest Press", 
-      "part": "Chest", 
-      "youtube": "https://www.youtube.com/watch?v=rT7DgCr-3pg", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-bench-press.jpg"
-    },
-    {
-      "no": 2, 
-      "exercise": "Barbell Shoulder Press / Overhead Press", 
-      "part": "Shoulder", 
-      "youtube": "youtube.com/watch?v=2yjwXTZQDDI", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/barbell-overhead-press.jpg"
-    },
-    {
-      "no": 3, 
-      "exercise": "Close-Grip Overhand Barbell Bench Press", 
-      "part": "Triceps", 
-      "youtube": "https://www.youtube.com/watch?v=nEF0bv2FW94", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/close-grip-barbell-bench-press.jpg"
-    },
-    {
-      "no": 4, 
-      "exercise": "Dumbbell Pullovers", 
-      "part": "Chest", 
-      "youtube": "https://www.youtube.com/watch?v=tpLnfSQJ0gg", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/dumbbell-pullover.jpg"
-    },
-    {
-      "no": 5, 
-      "exercise": "Dumbbell Bent Over Lateral Rear Delt Raises / Flyes", 
-      "part": "Shoulder", 
-      "youtube": "https://www.youtube.com/watch?v=ttvfGg9d76c", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-bent-over-lateral-raise.jpg"
+      "exercise": "", 
+      "part": "", 
+      "youtube": "", 
+      "image": ""
     }
   ],
-  "pull": [
+  "day2": [
     {
       "no": 1, 
-      "exercise": "Machine Assisted Pull-ups / Pullups", 
-      "part": "Middle Back", 
-      "youtube": "https://www.youtube.com/watch?v=ylVmNQlKdAI", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/machine-assisted-pull-up.jpg"
-    },
-    {
-      "no": 2, 
-      "exercise": "Cable Hammer Bicep Curls", 
-      "part": "Biceps", 
-      "youtube": "https://www.youtube.com/watch?v=1Quc_tOv97I", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/cable-curl.jpg"
-    },
-    {
-      "no": 3, 
-      "exercise": "Seated Dumbbell Palm-Down Wrist Curls / Forearm Curls", 
-      "part": "Forearms", 
-      "youtube": "https://www.youtube.com/watch?v=qMtmHwaCmYI", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/seated-dumbbell-wrist-curl.jpg"
-    },
-    {
-      "no": 4, 
-      "exercise": "Bent Over Barbell Rows", 
-      "part": "Lower Back, Middle Back", 
-      "youtube": "https://www.youtube.com/watch?v=9efgcAjQe7E", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/bent-over-barbell-row.jpg"
-    },
-    {
-      "no": 5, 
-      "exercise": "Seated Dumbbell Bicep Curls", 
-      "part": "Biceps", 
-      "youtube": "https://www.youtube.com/watch?v=soxrZlIl35U", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/incline-dumbbell-curl.jpg"
+      "exercise": "", 
+      "part": "", 
+      "youtube": "", 
+      "image": ""
     }
   ],
-  "legs": [
+  "day3": [
     {
       "no": 1, 
-      "exercise": "Barbell Squats", 
-      "part": "Glutes, Quadriceps", 
-      "youtube": "https://www.youtube.com/watch?v=SW_C1A-rejs", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-squat.jpg"
-    },
+      "exercise": "", 
+      "part": "", 
+      "youtube": "", 
+      "image": ""
+    }
+  ],
+  "day4": [
     {
-      "no": 2, 
-      "exercise": "Barbell Deadlifts", 
-      "part": "Lower Back", 
-      "youtube": "https://www.youtube.com/watch?v=7Q_GnXm7LbI", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2018/04/barbell-deadlift.jpg"
-    },
+      "no": 1, 
+      "exercise": "", 
+      "part": "", 
+      "youtube": "", 
+      "image": ""
+    }
+  ],
+  "day5": [
     {
-      "no": 3, 
-      "exercise": "Leg Press Machine Calf Raises", 
-      "part": "Calves", 
-      "youtube": "https://www.youtube.com/watch?v=YMmgqO8Jo-k", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/machine-seated-calf-raise.jpg"
-    },
+      "no": 1, 
+      "exercise": "", 
+      "part": "", 
+      "youtube": "", 
+      "image": ""
+    }
+  ],
+  "day6": [
     {
-      "no": 4, 
-      "exercise": "Dumbbell Lunges", 
-      "part": "Glutes, Quadriceps", 
-      "youtube": "https://www.youtube.com/watch?v=D7KaRcUTQeE", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/dumbbell-lunge.jpg"
-    },
-    {
-      "no": 5, 
-      "exercise": "Leg Press / Machine Squat Press", 
-      "part": "Glutes, Quadriceps", 
-      "youtube": "https://www.youtube.com/watch?v=oujca3_Shgw", 
-      "image": "https://fitnessvolt.com/wp-content/uploads/2019/04/sled-calf-press.jpg"
+      "no": 1, 
+      "exercise": "", 
+      "part": "", 
+      "youtube": "", 
+      "image": ""
     }
   ]
 }
