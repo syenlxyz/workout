@@ -83,16 +83,15 @@ def get_images(df):
 def get_image(url):
     filename = url.split('/')[-2] + '.svg'
     url = get_link(url)
-    if url:
-        headers = {
-            'User-Agent': USER_AGENT
-        }
-        response = requests.get(url, headers=headers)
-        image = response.content
-        image_path = Path('image') / filename
-        with open(image_path, 'wb') as file:
-            file.write(image)
-        return image_path.as_posix()
+    headers = {
+        'User-Agent': USER_AGENT
+    }
+    response = requests.get(url, headers=headers)
+    image = response.content
+    image_path = Path('image') / filename
+    with open(image_path, 'wb') as file:
+        file.write(image)
+    return image_path.as_posix()
 
 def get_link(url):
     headers = {
@@ -100,10 +99,8 @@ def get_link(url):
     }
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.text, 'html.parser')
-    img = soup.find('img', {'class': 'exImg'})
-    if img:
-        link = img['data-url_male']
-        return link
+    link = soup.find('img', {'class': 'exImg'})['data-url_male']
+    return link
 
 # Create html file
 def create_html():
