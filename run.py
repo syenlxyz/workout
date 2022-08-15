@@ -7,12 +7,12 @@ from tabulate import tabulate
 import json
 import multiprocessing as mp
 import pandas as pd
-import re
 import requests
 
 # Define user agent
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
- 
+
+# Configure loading bar
 config_handler.set_global(
     length=75,
     spinner='classic',
@@ -21,35 +21,38 @@ config_handler.set_global(
     dual_line=True
 )
 
+# Create json file
 def create_json():
+    # Set up image path
     image_path = Path.cwd() / 'image'
     if not image_path.is_dir():
         image_path.mkdir()
 
+    # Read word document
     file_path = Path.cwd() / 'workout.docx'
     document = Document(file_path)
 
+    # Extract titles
     paragraphs = document.paragraphs
     titles = [x.text for x in paragraphs if x.text.strip()]
 
+    # Extract data from tables
     tables = document.tables
     keys = ['day1', 'day2', 'day3', 'day4', 'day5', 'day6']
-
     data = {}
     for index, table in enumerate(tables):
-        title = titles[index]
-        print(title)
-
+        print(titles[index])
         df = create_df(table)
         df['Image'] = get_images(df)
-
         key = keys[index]
         data[key] = df.to_dict('records')
 
+    # Export json file
     json_path = Path.cwd() / 'data.json'
     with open(json_path, 'w') as file:
         json.dump(data, file)
 
+# Create dataframe from table
 def create_df(table):
     num_row = len(table.rows)
     num_col = len(table.rows[0].cells)
@@ -66,6 +69,7 @@ def create_df(table):
     df = pd.DataFrame(data)
     return df
 
+# Download images for all exercises
 def get_images(df):
     links = list(df['Link'])
     processes = mp.cpu_count() - 1
@@ -80,19 +84,26 @@ def get_images(df):
             images.append(result)
         return images
 
+# Download image
 def get_image(url):
+    # Create filename from url
     filename = url.split('/')[-2] + '.svg'
+
+    # Get image data
     url = get_link(url)
     headers = {
         'User-Agent': USER_AGENT
     }
     response = requests.get(url, headers=headers)
+
+    # Export image file
     image = response.content
     image_path = Path('image') / filename
     with open(image_path, 'wb') as file:
         file.write(image)
     return image_path.as_posix()
 
+# Get image link from website
 def get_link(url):
     headers = {
         'User-Agent': USER_AGENT
