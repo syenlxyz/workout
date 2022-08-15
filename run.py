@@ -22,6 +22,10 @@ config_handler.set_global(
 )
 
 def create_json():
+    image_path = Path.cwd() / 'image'
+    if not image_path.is_dir():
+        image_path.mkdir()
+
     file_path = Path.cwd() / 'workout.docx'
     document = Document(file_path)
 
