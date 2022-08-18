@@ -92,7 +92,7 @@ def get_image(url):
     # Get image data
     url = get_link(url)
     headers = {
-        'User-Agent': USER_AGENT
+        'user-agent': USER_AGENT
     }
     response = requests.get(url, headers=headers)
 
@@ -106,7 +106,7 @@ def get_image(url):
 # Get image link from website
 def get_link(url):
     headers = {
-        'User-Agent': USER_AGENT
+        'user-agent': USER_AGENT
     }
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.text, 'html.parser')
