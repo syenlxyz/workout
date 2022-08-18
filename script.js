@@ -11,10 +11,8 @@ let dow = {
 
 // Select id based on day of week
 let today = new Date();
-let id = dow[today.getDay()];
-
-
-let id = 'day2'
+//let id = dow[today.getDay()];
+let id = 'day2';
 
 // Make tab active
 let tab = document.getElementById(id);
