@@ -13,6 +13,9 @@ let dow = {
 let today = new Date();
 let id = dow[today.getDay()];
 
+
+let id = 'day2'
+
 // Make tab active
 let tab = document.getElementById(id);
 tab.classList.add('active');
@@ -46,4 +49,4 @@ button.onclick = function() {
 // 2022-08-05: pull
 // 2022-08-13: legs
 // 2022-08-15: push
-// 2022-08-16: pull (tbc)
+// 2022-08-18: pull (tbc)
