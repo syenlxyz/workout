@@ -157,10 +157,10 @@ def create_table(array):
             item['No'],
             create_link(item['Exercise'], item['Link']),
             create_img(item['Image']),
-            item['Body Part']
+            item['Part']
         ]
         table.append(row)
-    headers = ['No', 'Exercise', 'Diagram', 'Body Part']
+    headers = ['No', 'Exercise', 'Diagram', 'Part']
     html = tabulate(table, headers, tablefmt='unsafehtml', disable_numparse=True)
     soup = BeautifulSoup(html, 'html.parser')
     return soup
