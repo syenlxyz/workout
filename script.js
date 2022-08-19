@@ -1,18 +1,7 @@
-// Day of week
-let dow = {
-  0: 'day1',
-  1: 'day1',
-  2: 'day2',
-  3: 'day3',
-  4: 'day4',
-  5: 'day5',
-  6: 'day6'
-};
-
-// Select id based on day of week
-let today = new Date();
-//let id = dow[today.getDay()];
-let id = 'day2';
+// Select id based on past workout
+let workout = Object.keys(history);
+let num = workout.length % 6 ? workout.length % 6 : 6;
+let id = 'day' + num;
 
 // Make tab active
 let tab = document.getElementById(id);
@@ -39,12 +28,3 @@ button.onclick = function() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-// 2022-08-01: push
-// 2022-08-02: pull
-// 2022-08-03: legs
-// 2022-08-04: push
-// 2022-08-05: pull
-// 2022-08-13: legs
-// 2022-08-15: push
-// 2022-08-18: pull (tbc)
