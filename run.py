@@ -59,14 +59,15 @@ def create_df(table):
     for i in range(num_row):
         row = table.rows[i]
         if i == 0:
-            header = [x.text.strip() for x in row.cells]
-            data = {x:[] for x in header}
+            columns = [x.text.strip() for x in row.cells]
+            data = []
         else:
+            items = []
             for j in range(num_col):
-                key = header[j]
                 item = row.cells[j].text.strip()
-                data[key].append(item)
-    df = pd.DataFrame(data)
+                items.append(item)
+            data.append(items)
+    df = pd.DataFrame(data, columns=columns)
     return df
 
 # Download images for all exercises
