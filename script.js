@@ -1,7 +1,5 @@
-// Select id based on past workout
-let workout = Object.keys(history);
-let num = workout.length % 6 ? workout.length % 6 : 6;
-let id = 'day' + num;
+// Select id
+let id = 'day1'
 
 // Make tab active
 let tab = document.getElementById(id);
