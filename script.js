@@ -1,5 +1,18 @@
-// Select id
-let id = 'day1'
+// Assign workout to day of week
+let workout = {
+  0: 'push',
+  1: 'push',
+  2: 'pull',
+  3: 'legs',
+  4: 'push',
+  5: 'pull',
+  6: 'legs'
+}
+
+// Select workout based on day of week
+let today = new Date();
+let dow = today.getDay();
+let id = workout[dow];
 
 // Make tab active
 let tab = document.getElementById(id);
