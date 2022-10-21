@@ -1,6 +1,7 @@
 # Load python packages
 from alive_progress import alive_it, config_handler
 from bs4 import BeautifulSoup
+from datetime import datetime
 from docx import Document
 from pathlib import Path
 from tabulate import tabulate
@@ -182,7 +183,19 @@ def create_img(url):
     img['alt'] = url.split('/')[-1]
     return str(img)
 
-# Run main program
-if __name__ == '__main__':
+# Print execution time
+def get_exec_time(function, **kwargs):
+    start_time = datetime.now()
+    function(**kwargs)
+    end_time = datetime.now()
+    exec_time = end_time - start_time
+    print(f'Execution time: {exec_time}')
+
+# Main program
+def main():
     create_json()
     create_html()
+
+# Run program
+if __name__ == '__main__':
+    get_exec_time(main)
