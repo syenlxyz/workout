@@ -38,7 +38,7 @@ def create_json():
 
     # Extract data from tables
     tables = document.tables
-    keys = ['day1', 'day2', 'day3', 'day4', 'day5', 'day6']
+    keys = ['push', 'pull', 'legs']
     data = {}
     for index, table in enumerate(tables):
         print(titles[index])
